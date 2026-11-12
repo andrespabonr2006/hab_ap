@@ -1,0 +1,6 @@
+@servicio_hab_ap_HostAddress = http://localhost:5209
+
+GET {{servicio_hab_ap_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

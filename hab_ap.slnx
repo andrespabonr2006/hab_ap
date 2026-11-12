@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="aplicaciones_hab_ap/aplicaciones_hab_ap.csproj" />
+  <Project Path="front_hab_ap/front_hab_ap.csproj" />
+  <Project Path="presentaciones_hab_ap/presentaciones_hab_ap.csproj" />
+  <Project Path="pruebas_hab_ap/pruebas_hab_ap.csproj" />
+  <Project Path="servicio_hab_ap/servicio_hab_ap.csproj" />
+</Solution>

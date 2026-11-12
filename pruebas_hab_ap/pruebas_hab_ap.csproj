@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MSTest" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\aplicaciones_hab_ap\aplicaciones_hab_ap.csproj" />
+    <ProjectReference Include="..\front_hab_ap\front_hab_ap.csproj" />
+    <ProjectReference Include="..\presentaciones_hab_ap\presentaciones_hab_ap.csproj" />
+    <ProjectReference Include="..\servicio_hab_ap\servicio_hab_ap.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+  </ItemGroup>
+
+</Project>
